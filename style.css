@@ -340,3 +340,9 @@ footer{
         gap: 40px;
     }
 }
+@media (min-width:768px) and (max-width: 1190px){
+    .products{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
