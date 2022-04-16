@@ -50,7 +50,7 @@ nav{
 .content{
     margin-top: 15px;
     width: 100%;
-  background-image: url('/img/pexels-athena-2582928.jpg');
+  background-image: url('img/pexels-athena-2582928.jpg');
   height: 550px;
   background-position: center;
   background-repeat: no-repeat;
@@ -198,7 +198,7 @@ nav{
 .testi-content{
     border-radius:10px ;
     padding: 10px 20px;
-    background:url('/img/polygon-scatter-haikei.svg') ;
+    background:url('img/polygon-scatter-haikei.svg') ;
 }
 .testi-content p{
     margin: 10px 0;
