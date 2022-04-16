@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins';
+    color: white;
+    background-color: #030303;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%23d11600' fill-opacity='0.1'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+
+}
+.nav img{
+    width:120px;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    font-size: 17px;
+}
+.nav-icons i{
+    font-size: 18px;
+}
+.nav-items{
+    display: flex;
+    list-style: none;
+}
+.nav-items li a{
+
+    text-decoration: none;
+    margin-left: 20px;
+    color: white;
+}
+.nav-items li a:hover{
+    border-bottom: 2px solid #ccc;
+}
+.nav-icons a i{
+    color: white;
+}
+.content{
+    margin-top: 15px;
+    width: 100%;
+  background-image: url('/img/pexels-athena-2582928.jpg');
+  height: 550px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 60px;
+  margin-bottom: 50px;
+}
+.content h2{
+    font-size: 34px;
+}
+.content p{
+    font-size: 19px;
+    margin: 23px 0;
+}
+ .btn{
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    background-color: #FF0000;
+    border-radius: 6px;
+    font-family: 'Poppins';
+}
+.section img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.section p{
+    margin: 10px 0;
+}
+.section a{
+    text-decoration: none;
+}
+.section .card1{
+    background-position: center;
+    background-size: cover;
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+.section .card6{
+    background-position: center;
+    background-size: cover;
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+.btn:hover{
+    transition: all 0.3s ease;
+    background-color: #FF95C5;
+    cursor: pointer;
+}
+.card a:hover{
+    border-bottom: 2px solid #ccc;
+
+}
+.banner{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    height: 350px;
+    width: 100%;
+    background: url('https://images.pexels.com/photos/777001/pexels-photo-777001.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner .content-banner h2{
+    font-size: 30px;
+}
+.banner .content-banner p{
+    margin: 10px 0;
+}
+.banner .content-banner .btn{
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border: none;
+    color: white;
+    background-color: #FF0000;
+    border-radius: 6px;
+    font-family: 'Poppins';
+}
+.banner-envidia{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+.banner_content{
+    padding: 10px 20px;
+    display: flex;
+    align-items:flex-start ;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    height: 200px;
+    width: 100%;
+    background: url('https://images.pexels.com/photos/4581613/pexels-photo-4581613.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner_content p,
+.banner_content2 p{
+    margin: 10px 0;
+}
+.banner_content2{
+    padding: 10px 20px;
+    display: flex;
+    align-items:flex-start ;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    height: 200px;
+    width: 100%;
+    background: url('https://images.pexels.com/photos/343239/pexels-photo-343239.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-top img{
+    max-height: 80px;
+    border-radius: 45%;
+}
+.testimonials{
+    text-align: center;
+    margin-top: 50px;
+    gap: 25px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.testi-content{
+    border-radius:10px ;
+    padding: 10px 20px;
+    background:url('/img/polygon-scatter-haikei.svg') ;
+}
+.testi-content p{
+    margin: 10px 0;
+}
+.testi-content em{
+    color: red;
+}
+
+.element img{
+    height: 180px;
+}
+.products-info em{
+    font-weight: bold;
+    font-size: 19px;
+    color: white;
+    margin: 8px;
+    display: inline-block;
+}
+.products-info img{
+    border-radius: 4px;
+    max-width: 275px;
+    height: 190px;
+}
+.products-info .btn{
+    display: block;
+    padding: 8px 20px;
+}
+.products{
+    gap: 50px;
+    padding: 40px 30px;
+    background: url('/img/4.svg') no-repeat center;
+    background-size: cover;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.banner-three{
+    padding: 10px 20px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 200px;
+    background: url('https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat center;
+    background-size: cover;
+}
+.banner-three p{
+    margin: 10px 0;
+}
+
+/* Footer */
+footer{
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url('https://images.pexels.com/photos/1297611/pexels-photo-1297611.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') ;
+}
+.footer-items{
+    display: grid;
+    gap: 30px;
+    align-items: flex-start;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+}
+.footer-items ul{
+    list-style: none;
+    margin: 0 auto;
+}
+.footer-items ul li a{
+    color: white;
+    text-decoration: none;
+}
+.footer-items h2{
+    color: red;
+}
+.footer-items i{
+    margin-right: 5px;
+}
+
+.menu-btn{
+    position: absolute;
+    top: 15px;
+    right: 18px;
+    z-index: 2;
+    font-size: 1.8rem;
+    cursor: pointer;
+    display: none;
+}
+
+/* Media Queries */
+@media (max-width: 768px){
+    .menu-btn{
+        display: block;
+        right: 100px;
+        top: 10px;
+    }
+    .nav .nav-items{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 30px;
+        opacity: .9;
+        background-color: #2f3640;
+        height: 100%;
+        transform: translateX(-400px);
+    }
+    .nav .nav-items li{
+        padding: 20px;
+        font-size: 14px;
+    }
+    .nav .nav-items.show{
+        transform: translateX(-20px);
+        background-image: none;
+        transition: transform .5s ease-in-out;
+    }
+    footer{
+        height: 100%;
+    }
+    .products{
+        text-align: center;
+        grid-template-columns: 1fr;
+    }
+    .section{
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+    .testimonials{
+        grid-template-columns: 1fr;
+    }
+    .banner-envidia{
+        grid-template-columns: 1fr;
+    }
+    .footer-items{
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+}
