@@ -61,6 +61,7 @@ nav{
   justify-content: flex-end;
   padding-bottom: 60px;
   margin-bottom: 50px;
+  background-attachment: fixed;
 }
 .content h2{
     font-size: 34px;
@@ -130,6 +131,7 @@ nav{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 .banner .content-banner h2{
     font-size: 30px;
@@ -246,6 +248,7 @@ nav{
     height: 200px;
     background: url('https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat center;
     background-size: cover;
+    background-attachment: fixed;
 }
 .banner-three p{
     margin: 10px 0;
